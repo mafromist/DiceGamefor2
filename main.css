@@ -1,0 +1,98 @@
+body {
+    background-image: linear-gradient( 181deg,  rgba(225,109,245,1) 6.9%, rgba(78,248,231,1) 112.8% );
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    height: 400px;
+    width: 800px;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 100px auto;
+}
+
+.players {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: auto 10px;
+    height: 100%;
+}
+
+.playerOne , .playerTwo {
+    border: 1px solid rgb(196, 45, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+}
+.playerOne {
+    background-color: rgba(78,248,231,1);
+    }
+
+.playerTitle, .currentScoreOne {
+    font-size: 2.8em;
+}
+
+.holdScoreArea {
+    background-color:  rgba(225,109,245,1);
+    margin: 5vh 4vw;
+    color: white;
+    border-radius: 10px;
+}
+
+.gameControls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 10;
+    width: 30%;
+    border: 1px solid rgb(2, 157, 77);
+    background-color: transparent;
+}
+
+.dice {
+    background-image: linear-gradient( 69.7deg,  rgba(244,37,243,1) 1.4%, rgba(244,87,1,1) 36.2%, rgba(255,204,37,1) 72.2%, rgba(20,196,6,1) 113% );    height: 100px;
+    border-radius: 10px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+}
+
+.dot {
+    left: 40px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
