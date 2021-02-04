@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/227095ec8d.js" crossorigin="anonymous"></script>
     <title>Dice Game for 2 Players</title>
 </head>
 <body>
+
+    <div class="container">
+        <div class="players">
+            <div class="playerOne">
+                <div class="titleAreaOne">
+                    <h1 class="playerTitle" id="title1">Player 1</h1>
+                    
+                </div>
+            
+                <div class="currentScoreOneContainer">
+                    <h1 class="currentScoreOne">0</h1>
+                </div>
+
+
+                <div class="holdScoreOne holdScoreArea" id="holdScoreOne">
+                    <h2>CURRENT</h2>
+                    <h2 id="scoreOne">0</h2>
+                </div>
+
+            </div>
+
+            
+            
+            <div class="gameControls">
+                <div class="newGameBtn btn">
+                    <button class="newGameBtn btn" id="newGameBtn">
+                        <i class="fas fa-plus-circle"></i><br>New Game
+                    </button>
+                </div>
+
+                <div class="dice" id="diceBackground">
+                    <div class="one dot" id="one"></div>
+                    <div class="two dot" id="two"></div>
+                    <div class="three dot" id="three"></div>
+                    <div class="four dot" id="four"></div>
+                    <div class="five dot" id="five"></div>
+                    <div class="six dot" id="six"></div>
+                </div>
+
+                <div class="rollBtn btn">
+                    <button class="rollBtn btn" id="rollBtn">
+                        <i class="fas fa-dice"></i><br>Roll Dice
+                    </button>
+                </div>
+                <div class="holdBtn btn">
+                    <button class="holdBtn btn" id="holdBtn">
+                        <i class="fas fa-piggy-bank"></i>
+                        <br>Hold Score
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="playerTwo">
+
+                <div class="titleAreaTwo">
+                    <h1 class="playerTitle" id="title2">Player 2</h1>
+                </div>
+
+                <div class="currentScoreOneContainer">
+                    <h1 class="currentScoreOne">0</h1>
+                </div>
+
+                <div class="holdScoreTwo holdScoreArea" id="holdScoreTwo">
+                    <h2>CURRENT</h2>
+                    <h2 id="scoreTwo">0</h2>
+                </div>
+            </div> 
+        </div>
+
+        
+    </div>
+    
+    <footer>
+        <h1>Freak ONE a.k.a Dice Game for 2 Players</h1>
+        <h3>Click the Roll button in order, the first player who reach 20 or over will Win. But if a Player roll ONE, sorry the Player lose!</h3>
+        <p>Redesign and developed by <a href="https://github.com/mafromist">@mafromist</a></p>
+    </footer>
     
     <script src="app.js"></script>
 </body>
