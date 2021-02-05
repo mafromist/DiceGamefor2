@@ -83,7 +83,6 @@ footer {
 }
 
 .one, .two, .three, .four, .five, .six {
-    display: none;
     top: 40px;
     left: 40px;
     margin: 5px;
@@ -102,7 +101,7 @@ footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
- .rollBtnArea, .holdBtnArea {
+ .rollBtn, .holdBtn {
     display: none;
     font-size: 1.2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
